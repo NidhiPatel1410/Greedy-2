@@ -2,6 +2,11 @@
 // n intervals between all it's occurences. If more than 1 task have max frquency, arranging them first as pairs. Then, calculating
 // how many partitions we did, based on that partitions, calculating how many empty spaces we have. And then how many tasks are
 // pending to be schedule. Then how many idle spaces left, adding it to the tasks.length will give us the answer.
+
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
 class Solution {
     public int leastInterval(char[] tasks, int n) {
         // Base Case
